@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+  height: min(100vh, 100px);
+  box-shadow: 0 0 7px black;
+}
+
+.header-inner-cont {
+  display: flex;
+  align-items: center;
+  width: min(95%, 112rem);
+  height: inherit;
+  color: aquamarine;
+  margin-inline: auto;
+}
+
+.navbar img {
+  width: 15rem;
+}
