@@ -1,7 +1,10 @@
+/* Navbar */
+
 header {
   width: 100%;
-  height: min(100vh, 100px);
-  box-shadow: 0 0 7px black;
+  height: min(100vh, 150px);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
 }
 
 .header-inner-cont {
@@ -15,4 +18,53 @@ header {
 
 .navbar img {
   width: 15rem;
+}
+
+/* Hero */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr auto auto;
+  width: min(95%, 112rem);
+  margin-inline: auto;
+  margin-top: 6rem;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  padding-inline: 1rem;
+}
+
+.hero-container img {
+  width: 100%;
+  justify-self: center;
+  grid-column: 1/-1;
+  padding-bottom: 7rem;
+}
+
+.hero-container h1 {
+  font-weight: 500;
+  font-size: calc(var(--step-5) + 1rem);
+  grid-column: 1/2;
+  line-height: 1.2;
+  padding-block-end: 1rem;
+}
+
+.hero-container p {
+  font-weight: 200;
+  font-size: calc((var(--step-3)));
+  grid-column: 1/2;
+  width: 100%;
+  max-width: 35ch;
+  max-width: 50ch;
+  padding-block-end: 7rem;
+  transition: all 1s;
+}
+
+@media screen and (max-width: 760px) {
+  .hero-container h1 {
+    font-size: calc(var(--step-5) - 0.2rem);
+  }
+
+  .hero-container p {
+    font-size: calc(var(--step-2));
+  }
 }
