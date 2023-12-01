@@ -1,4 +1,3 @@
-import "./App.css";
 import AirBnb_Logo from "/src/assets/airbnb-logo.png";
 
 const Navbar = () => {

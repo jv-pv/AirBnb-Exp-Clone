@@ -1,13 +1,14 @@
-import './App.css'
-import Navbar from './navbar.jsx'
+import "./App.css";
+import Navbar from "./components/navbar.jsx";
+import Hero from "./components/hero.jsx"
 
 function App() {
-
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <Hero/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
