@@ -80,6 +80,7 @@ header {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
+  position: relative;
 }
 
 .card--image {
@@ -103,6 +104,17 @@ header {
 
 .card--title {
   margin-inline-end: 2px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: whitesmoke;
+  color: black;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  border-radius: 5px;
 }
 
 /* Generic */
