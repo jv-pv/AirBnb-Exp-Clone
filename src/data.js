@@ -49,7 +49,7 @@ export default [
             reviewCount: 1
         },
         location: "Norway",
-        openSpots: 3,
+        openSpots: 0,
     },
     {
         id: 5,
