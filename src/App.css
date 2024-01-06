@@ -103,7 +103,7 @@ header {
 }
 
 .card--title {
-  margin-inline-end: 2px;
+  margin-inline-end: 0.3rem;
 }
 
 .card--badge {
