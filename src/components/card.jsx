@@ -3,6 +3,8 @@ const Card = (props) => {
 
     let badgeText;
 
+    console.log(props)
+
     if (props.openSpots === 0) {
         badgeText = "SOLD OUT"
     } else if (props.location === "Online") {
